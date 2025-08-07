@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  smartqlas-ragflow:
+  - apiVersion: v2
+    appVersion: dev
+    created: "2025-08-07T15:07:29.817032915+08:00"
+    description: A Helm chart for deploying RAGFlow on Kubernetes
+    digest: 5839e22848a9d2ef550e0c01bef2e1372f0e24f025a1557f04d04d87f7a6ccfe
+    name: smartqlas-ragflow
+    type: application
+    urls:
+    - https://aiot-hwacom.github.io/smartqlas-helm-repo/smartqlas-ragflow-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-08-07T15:07:29.815580795+08:00"
