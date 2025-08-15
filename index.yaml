@@ -13,7 +13,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 26.2.5
-    created: "2025-08-15T16:28:03.111117262+08:00"
+    created: "2025-08-15T16:32:37.480500873+08:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -27,7 +27,7 @@ entries:
     description: Keycloak is a high performance Java-based identity and access management
       solution. It lets developers add an authentication layer to their applications
       with minimum effort.
-    digest: f3ab1266c761515c076a25da5220f030e522818348b2afdf09c4e63f477a2953
+    digest: a67d32185af76d801c238a453985450ce738fe1b0a04d7530bce4af74f70f608
     home: https://bitnami.com
     icon: https://dyltqmyl993wv.cloudfront.net/assets/stacks/keycloak/img/keycloak-stack-220x234.png
     keywords:
@@ -45,7 +45,7 @@ entries:
   smartqlas-ragflow:
   - apiVersion: v2
     appVersion: dev
-    created: "2025-08-15T16:28:03.111598168+08:00"
+    created: "2025-08-15T16:32:37.481177427+08:00"
     description: A Helm chart for deploying RAGFlow on Kubernetes
     digest: 5839e22848a9d2ef550e0c01bef2e1372f0e24f025a1557f04d04d87f7a6ccfe
     name: smartqlas-ragflow
@@ -53,4 +53,4 @@ entries:
     urls:
     - https://aiot-hwacom.github.io/smartqlas-helm-repo/smartqlas-ragflow-0.1.0.tgz
     version: 0.1.0
-generated: "2025-08-15T16:28:03.102487757+08:00"
+generated: "2025-08-15T16:32:37.469840719+08:00"
