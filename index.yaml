@@ -12,8 +12,8 @@ entries:
       licenses: Apache-2.0
       tanzuCategory: application
     apiVersion: v2
-    appVersion: 26.3.2
-    created: "2025-08-15T15:38:08.085742691+08:00"
+    appVersion: 26.2.5
+    created: "2025-08-15T16:09:08.592814477+08:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -27,7 +27,7 @@ entries:
     description: Keycloak is a high performance Java-based identity and access management
       solution. It lets developers add an authentication layer to their applications
       with minimum effort.
-    digest: 38e314363f8f3260957bb239e2c098efa9f58aaf5544adfe2022fd7ab9cd92be
+    digest: 28f7f5145f6594c606165b2666a1398a8c6c9030174b611c5ab51d5ebae413e7
     home: https://bitnami.com
     icon: https://dyltqmyl993wv.cloudfront.net/assets/stacks/keycloak/img/keycloak-stack-220x234.png
     keywords:
@@ -40,12 +40,12 @@ entries:
     sources:
     - https://github.com/bitnami/charts/tree/main/bitnami/keycloak
     urls:
-    - https://aiot-hwacom.github.io/smartqlas-helm-repo/keycloak-25.0.2.tgz
-    version: 25.0.2
+    - https://aiot-hwacom.github.io/smartqlas-helm-repo/keycloak-24.7.4.tgz
+    version: 24.7.4
   smartqlas-ragflow:
   - apiVersion: v2
     appVersion: dev
-    created: "2025-08-15T15:38:08.086390317+08:00"
+    created: "2025-08-15T16:09:08.59336096+08:00"
     description: A Helm chart for deploying RAGFlow on Kubernetes
     digest: 5839e22848a9d2ef550e0c01bef2e1372f0e24f025a1557f04d04d87f7a6ccfe
     name: smartqlas-ragflow
@@ -53,4 +53,4 @@ entries:
     urls:
     - https://aiot-hwacom.github.io/smartqlas-helm-repo/smartqlas-ragflow-0.1.0.tgz
     version: 0.1.0
-generated: "2025-08-15T15:38:08.077409285+08:00"
+generated: "2025-08-15T16:09:08.582644387+08:00"
