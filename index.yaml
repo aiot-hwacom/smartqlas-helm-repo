@@ -1,9 +1,51 @@
 apiVersion: v1
 entries:
+  keycloak:
+  - annotations:
+      category: DeveloperTools
+      images: |
+        - name: keycloak
+          # image: docker.io/bitnami/keycloak:26.3.2-debian-12-r2
+          image: docker.io/aiothwacom/keycloak:26.2.5-debian-12-r3
+        - name: keycloak-config-cli
+          image: docker.io/bitnami/keycloak-config-cli:6.4.0-debian-12-r11
+      licenses: Apache-2.0
+      tanzuCategory: application
+    apiVersion: v2
+    appVersion: 26.3.2
+    created: "2025-08-15T15:38:08.085742691+08:00"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 16.x.x
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: Keycloak is a high performance Java-based identity and access management
+      solution. It lets developers add an authentication layer to their applications
+      with minimum effort.
+    digest: 38e314363f8f3260957bb239e2c098efa9f58aaf5544adfe2022fd7ab9cd92be
+    home: https://bitnami.com
+    icon: https://dyltqmyl993wv.cloudfront.net/assets/stacks/keycloak/img/keycloak-stack-220x234.png
+    keywords:
+    - keycloak
+    - access-management
+    maintainers:
+    - name: Broadcom, Inc. All Rights Reserved.
+      url: https://github.com/bitnami/charts
+    name: keycloak
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/keycloak
+    urls:
+    - https://aiot-hwacom.github.io/smartqlas-helm-repo/keycloak-25.0.2.tgz
+    version: 25.0.2
   smartqlas-ragflow:
   - apiVersion: v2
     appVersion: dev
-    created: "2025-08-07T15:07:29.817032915+08:00"
+    created: "2025-08-15T15:38:08.086390317+08:00"
     description: A Helm chart for deploying RAGFlow on Kubernetes
     digest: 5839e22848a9d2ef550e0c01bef2e1372f0e24f025a1557f04d04d87f7a6ccfe
     name: smartqlas-ragflow
@@ -11,4 +53,4 @@ entries:
     urls:
     - https://aiot-hwacom.github.io/smartqlas-helm-repo/smartqlas-ragflow-0.1.0.tgz
     version: 0.1.0
-generated: "2025-08-07T15:07:29.815580795+08:00"
+generated: "2025-08-15T15:38:08.077409285+08:00"
